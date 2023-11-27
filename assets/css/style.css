@@ -89,17 +89,222 @@ h1, .intro p, .intro button{
 
 /* TRENDING */
 
-.trendSection {
-    padding: 1rem;
+.titleTrending {
+    display: flex;
+   align-items: center;
+   width: 18%;
+   justify-content: space-around;
 }
 
-.trending {
+h2 {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+.trendSection {
+    margin: 3rem 5rem;
+}
+
+.trendingBox {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .trend {
-    margin: 0 auto;
+    margin: 0.5rem;
 }
 
+.numeroTrend {
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: rgb(228, 228, 228);
+}
+
+.imgProfile {
+    border-radius: 50px;
+    width: 10%;
+}
+
+.dataDurata {
+    font-size: 0.7rem;
+    margin-top: 0.5rem; 
+    color: rgb(199, 199, 199);
+}
+
+.dataStella {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.stella {
+    width: 5%;
+}
+
+
+/* TREND 1 */
+.trend1 {
+    /* text-align: justify; */
+    width: 30%;
+    margin: 0.5rem 1rem 3rem 0;
+    /* margin-top: none; */
+    display: flex;
+    justify-content: flex-start;
+}
+
+.newTrend1{
+    display: flex;
+    flex-direction: column;
+}
+
+.infoProfilo1 {
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+
+.titoloTrend {
+    font-size: 0.8rem;
+    font-weight: 900;
+    margin-top: 0.5rem;
+}
+
+.nomeProfilo1 {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+/* TREND 2 */
+.trend2 {
+    /* text-align: justify; */
+    width: 30%; 
+    margin: 0.5rem 1rem 3rem 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.newTrend2{
+    display: flex;
+    flex-direction: column;
+}
+
+.infoProfilo2 {
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+
+.nomeProfilo2 {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+
+/* TREND 3 */
+
+.trend3 {
+    /* text-align: justify; */
+    width: 30%; 
+    margin: 0.5rem 1rem 3rem 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.newTrend3{
+    display: flex;
+    flex-direction: column;
+}
+
+.infoProfilo3 {
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+
+.nomeProfilo3 {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+
+/* TREND 4 */
+
+.trend4 {
+    /* text-align: justify; */
+    width: 30%; 
+    margin: 0.5rem 1rem 0 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.newTrend4{
+    display: flex;
+    flex-direction: column;
+}
+
+.infoProfilo4 {
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+
+.nomeProfilo4 {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+
+/* TREND 5 */
+
+.trend5 {
+    /* text-align: justify; */
+    width: 30%; 
+    margin: 0.5rem 1rem 0 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.newTrend5{
+    display: flex;
+    flex-direction: column;
+}
+
+.infoProfilo5 {
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+
+.nomeProfilo5 {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+/* TREND 6 */
+
+.trend6 {
+    /* text-align: justify; */
+    width: 30%; 
+    margin: 0.5rem 1rem 0 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.newTrend6{
+    display: flex;
+    flex-direction: column;
+}
+
+.infoProfilo6 {
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+
+.nomeProfilo6 {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
