@@ -1,4 +1,4 @@
-/* GENERALE */
+/* GENERALE | 1440 X 1074 */
 
 .m {
     width: 40%;
@@ -89,6 +89,11 @@ h1, .intro p, .intro button{
 
 /* TRENDING */
 
+/* section {
+    border-bottom: 1px solid black;
+} */
+
+
 .titleTrending {
     display: flex;
    align-items: center;
@@ -147,7 +152,6 @@ h2 {
 
 /* TREND 1 */
 .trend1 {
-    /* text-align: justify; */
     width: 30%;
     margin: 0.5rem 1rem 3rem 0;
     /* margin-top: none; */
@@ -179,7 +183,6 @@ h2 {
 
 /* TREND 2 */
 .trend2 {
-    /* text-align: justify; */
     width: 30%; 
     margin: 0.5rem 1rem 3rem 0;
     display: flex;
@@ -206,7 +209,6 @@ h2 {
 /* TREND 3 */
 
 .trend3 {
-    /* text-align: justify; */
     width: 30%; 
     margin: 0.5rem 1rem 3rem 0;
     display: flex;
@@ -233,7 +235,6 @@ h2 {
 /* TREND 4 */
 
 .trend4 {
-    /* text-align: justify; */
     width: 30%; 
     margin: 0.5rem 1rem 0 0;
     display: flex;
@@ -260,7 +261,6 @@ h2 {
 /* TREND 5 */
 
 .trend5 {
-    /* text-align: justify; */
     width: 30%; 
     margin: 0.5rem 1rem 0 0;
     display: flex;
@@ -286,7 +286,6 @@ h2 {
 /* TREND 6 */
 
 .trend6 {
-    /* text-align: justify; */
     width: 30%; 
     margin: 0.5rem 1rem 0 0;
     display: flex;
@@ -307,4 +306,165 @@ h2 {
 .nomeProfilo6 {
     font-size: 0.7rem;
     font-weight: bold;
+}
+
+/*SECONDA PARTE DEL DOC*/
+
+.secondaParte {
+    display: flex;
+    border-top: 1px solid rgb(209, 209, 209);
+    padding-top: 3rem;
+}
+
+
+/*  ARTICLE  */
+
+.imgProfileArticle {
+    border-radius: 50%;
+    width: 4%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.article {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.profilo {
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.titoloArticle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.descrizione {
+    font-size: 0.8rem;
+    color:  rgba(92, 92, 92, 0.884);
+}
+
+.imgArticle {
+    width: 30%;
+}
+
+.dataDurata {
+    margin-top: 0.7rem;
+}
+
+.dataArticle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.bookmark {
+    display: flex;
+    align-self: flex-end;
+}
+
+/* ARTICLE 1*/
+
+.infoProfiloArticle1 {
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+
+.bookmark{
+    margin-right: 1rem;
+}
+
+.categoria {
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    padding: 0.2rem;
+}
+
+
+/* ARTICLE 2 */
+.infoProfiloArticle2 {
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* ARTICLE 3 */
+.infoProfiloArticle3 {
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+
+/* ARTICLE 4 */
+.infoProfiloArticle4 {
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+
+
+/* ARTICLE 5 */
+.infoProfiloArticle5 {
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+
+
+/* ARTICLE 6 */
+.infoProfiloArticle6 {
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+
+
+/* ARTICLE 7 */
+.infoProfiloArticle7 {
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+
+
+/* ASIDE */
+
+/*prima lista*/
+
+.discover {
+    margin: 1rem 0 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    /* align-items: center; */
+    width: 50%;
+}
+
+.discover a {
+    border: 1px solid grey;
+    text-decoration: none;
+    padding: 0.2rem;
+}
+
+
+/*seconda lista*/
+
+.info a {
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+    
 }
