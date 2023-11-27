@@ -1,3 +1,105 @@
+/* GENERALE */
+
 .m {
     width: 40%;
 }
+
+header, section {
+    font-family: 'Spectral', serif;
+}
+
+
+/*HEADER*/
+
+header {
+    background-color: #ffc017;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 7rem;
+    border-bottom: 1px solid black;
+}
+
+header img {
+    width: 13%;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0.5rem;
+    font-size: 0.8rem;
+    color: black;
+}
+
+nav a:last-child {
+    color: rgba(255, 255, 255, 0.863);
+}
+
+nav button {
+    background-color: black;
+    border-radius: 20px;
+    border: none;
+    padding: 0.5rem;
+}
+
+/*SECTION - intro pagina*/
+
+.introPage {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffc017;
+    border-bottom: 1px solid black;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 45%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: 550;
+}
+
+section p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+h1, .intro p, .intro button{
+    margin: 0.7rem;
+}
+
+.intro button {
+    background-color: black;
+    border-radius: 20px;
+    margin: 0.5rem;
+    height: 2.5rem;
+}
+
+.intro a {
+    color: rgba(255, 255, 255, 0.884);
+    padding: 1.7rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+/* TRENDING */
+
+.trendSection {
+    padding: 1rem;
+}
+
+.trending {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.trend {
+    margin: 0 auto;
+}
+
