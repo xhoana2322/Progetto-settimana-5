@@ -12,11 +12,20 @@ header, section {
 /*HEADER*/
 
 header {
+    position: sticky;
+    top: 0;
+    height: 30px;
     background-color: #ffc017;
     display: flex;
     justify-content: space-between;
     padding: 1.2rem 7rem;
     border-bottom: 1px solid black;
+    z-index: 1;
+    transition: background-color 0.5 ease-in-out 1s;
+}
+
+header.scrolled {
+    background-color: white;
 }
 
 header img {
@@ -39,6 +48,11 @@ nav button {
     border-radius: 20px;
     border: none;
     padding: 0.5rem;
+    transition: background-color 0.5 ease-in-out;
+}
+
+nav button.scrolled {
+    color:green;
 }
 
 /*SECTION - intro pagina*/
@@ -147,7 +161,7 @@ h2 {
 }
 
 .stella {
-    width: 5%;
+    width: 7%;
 }
 
 
@@ -373,6 +387,10 @@ article {
 .bookmark {
     display: flex;
     align-self: flex-end;
+}
+
+.star {
+    width: 5%;
 }
 
 /* ARTICLE 1*/
