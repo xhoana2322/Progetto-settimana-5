@@ -78,6 +78,7 @@ h1, .intro p, .intro button{
     border-radius: 20px;
     margin: 0.5rem;
     height: 2.5rem;
+    border: none;
 }
 
 .intro a {
@@ -321,7 +322,7 @@ h2 {
 
 .imgProfileArticle {
     border-radius: 50%;
-    width: 4%;
+    width: 10%;
 }
 
 article {
@@ -333,7 +334,7 @@ article {
 
 .article {
     display: flex;
-    width: 70%;
+    width: 60%;
     justify-content: space-between;
     margin-bottom: 2rem;
 }
@@ -341,11 +342,10 @@ article {
 .profilo {
     font-size: 0.7rem;
     font-weight: bold;
-    margin-bottom: 0.5rem;
 }
 
 .titoloArticle {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
@@ -361,6 +361,7 @@ article {
 
 .dataDurata {
     margin-top: 0.7rem;
+    color: grey;
 }
 
 .dataArticle {
@@ -380,6 +381,7 @@ article {
     width: 65%;
     display: flex;
     align-items: center;
+    margin-bottom: 0.5rem;
 }
 
 .bookmark{
@@ -389,8 +391,10 @@ article {
 .categoria {
     background-color: rgb(240, 240, 240);
     border-radius: 20px;
-    padding: 0.2rem;
+    padding: 0.1rem 0.3rem;
 }
+
+
 
 
 /* ARTICLE 2 */
@@ -398,6 +402,7 @@ article {
     width: 65%;
     display: flex;
     align-items: center;
+    margin-bottom: 0.5rem;
 }
 
 
@@ -407,6 +412,7 @@ article {
     width: 65%;
     display: flex;
     align-items: center;
+    margin-bottom: 0.5rem;
 }
 
 /* ARTICLE 4 */
@@ -414,6 +420,7 @@ article {
     width: 65%;
     display: flex;
     align-items: center;
+    margin-bottom: 0.5rem;
 }
 
 
@@ -422,6 +429,7 @@ article {
     width: 65%;
     display: flex;
     align-items: center;
+    margin-bottom: 0.5rem;
 }
 
 
@@ -438,6 +446,7 @@ article {
     width: 65%;
     display: flex;
     align-items: center;
+    margin-bottom: 0.5rem;
 }
 
 
@@ -445,26 +454,52 @@ article {
 
 /*prima lista*/
 
-.discover {
-    margin: 1rem 0 1rem 0;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    /* align-items: center; */
+aside {
     width: 50%;
 }
 
-.discover a {
-    border: 1px solid grey;
-    text-decoration: none;
-    padding: 0.2rem;
+.discover {
+    margin-top: 1rem;
 }
 
+.discover a {
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+    border: 1px solid rgb(212, 212, 212);
+    text-decoration: none;
+    padding: 0.2rem;
+    margin-right: 1rem;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.discoverList {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
 
 /*seconda lista*/
+
+.info {
+    margin-top: 1rem;
+    border-top: 1px solid rgb(190, 190, 190);
+    width: 80%;
+}
 
 .info a {
     text-decoration: none;
     color: rgb(95, 95, 95);
-    
+}
+
+.infoList {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 1rem;
+}
+
+.infoList a {
+    margin: 0.5rem;
 }
